@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 
-import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
+import { Navbar, Nav, Button } from "react-bootstrap";
+
+const iStyle = {
+  display: "block"
+};
 
 class App extends Component {
   render() {
@@ -12,12 +16,17 @@ class App extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto" />
             <Nav>
-              <Nav.Link href="#">About</Nav.Link>
-              <Nav.Link href="#">Service</Nav.Link>
-              <Nav.Link href="#">Contact</Nav.Link>
+              <Nav.Link href="#About">About</Nav.Link>
+              <Nav.Link href="#Service">Service</Nav.Link>
+              <Nav.Link href="#Contact">Contact</Nav.Link>
             </Nav>
+            &nbsp;&nbsp;&nbsp;&nbsp;
           </Navbar.Collapse>
-          <Button variant="outline-light">Search</Button>
+          <Button variant="outline-light">
+            <i className="material-icons" style={iStyle}>
+              search
+            </i>
+          </Button>
         </Navbar>
       </>
     );
