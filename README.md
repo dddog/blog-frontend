@@ -1,6 +1,6 @@
-# Kiwon Blog
+# Blog
 
-나의 블로그를 만든다
+Blog
 
 ## Todo
 
