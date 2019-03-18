@@ -4,7 +4,7 @@ Blog
 
 ## Todo
 
-- [ ] Navigation Bar
+- [x] Navigation Bar
   - [ ] About
   - [ ] Service
   - [ ] Contact
